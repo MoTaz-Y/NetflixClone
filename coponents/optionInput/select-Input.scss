@@ -1,0 +1,21 @@
+@use "../../scss/" as *;
+
+.select-input {
+  width: 200px;
+  color: $txt-color;
+  border: 2px solid $txt-color;
+  .MuiInputLabel-root {
+    color: $txt-color;
+  }
+  .MuiOutlinedInput-root {
+    fieldset {
+      border-color: $txt-color;
+    }
+    &:hover fieldset {
+      border-color: $txt-color;
+    }
+    &.Mui-focused fieldset {
+      border-color: $txt-color;
+    }
+  }
+}
